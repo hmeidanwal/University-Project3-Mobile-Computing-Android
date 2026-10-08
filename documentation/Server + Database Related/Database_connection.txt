@@ -1,0 +1,10 @@
+Host: dpg-d4mn0q49c44c7385v2b0-a.oregon-postgres.render.com
+Port: 5432
+Database: android6
+Username: android6_user
+Password: xwprC5Pq0TW3NCOuQCkJz2axkBHIv4G8
+Save password: checked
+Go to the SSL tab:
+Enable SSL: checked
+SSL Mode: require (or prefer)
+Leave all certificate fields empty

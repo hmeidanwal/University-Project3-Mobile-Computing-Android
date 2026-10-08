@@ -1,0 +1,10 @@
+# Sprint2
+
+| # | Task Description / Steps | Deliverable | Est. Time |
+|---|---------------------------|--------------|------------|
+| 1 | **Create Search UI Design (Frontend)**<br>- Add search bar at top of products page<br>- Include magnifying glass icon & clear (×) button<br>- Create result grid with product image, name, description, price, button<br>- Add placeholder text (“Search for watches, gifts…”)<br>- Ensure responsive, consistent layout (in Figma or code) | Functional, visually consistent search UI |  |
+| 2 | **Build Search API Endpoint (Backend)**<br>- Create route `GET /api/products/search`<br>- Accept `q`, `category`, `minPrice`, `maxPrice` as params<br>- Validate inputs and return dummy static results for testing<br>- Ensure endpoint returns JSON | Working backend route with test data |  |
+| 3 | **Implement Real Search Logic (Backend)**<br>- Query DB using `ILIKE` or `to_tsvector` on `product_name` and `description`<br>- Add optional category and price filters<br>- Implement pagination (`limit`, `offset`)<br>- Create indexes for performance | Real, optimized DB search returning products |  |
+| 4 | **Connect Frontend Search to API**<br>- Trigger API call on typing or pressing Enter<br>- Fetch data from `/api/products/search?q={term}`<br>- Display products dynamically on page<br>- Use `useState` / `useEffect` for state handling<br>- Add debounce (300ms delay before sending query) | Fully functional search connected to backend |  |
+| 5 | **Add Loading, Empty & Error States**<br>- Show loading spinner while fetching<br>- Show “No products found” message if empty<br>- Show error message on failure<br>- Add clear/reset button | Smooth user experience for all states |  |
+| 6 | **Testing, Performance & Polish**<br>- Test with multiple terms and filters<br>- Measure query performance (<200ms)<br>- Check mobile responsiveness<br>- Write quick unit tests for backend<br>- Commit and deploy to staging/production | Stable, tested, deployed search system |  |

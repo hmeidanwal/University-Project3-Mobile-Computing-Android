@@ -1,0 +1,8 @@
+| **Name** | Display notification |
+|:----|:--------|
+| **Actor** | System |
+| **Description** | The system displays a notification for a info or update in the app |
+| **Pre-Condition** | User has an account, is logged in and has notifications enabled |
+| **Scenario** | The price of a product saved by the User changes |
+| **Result** | System displays item, store and price in notification bubble |
+| **Exception** | - |

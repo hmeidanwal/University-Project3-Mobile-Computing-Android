@@ -1,1 +1,1 @@
-# University-Project3-Mobile-Computing-Android
+# PRJ3 Group repository 
