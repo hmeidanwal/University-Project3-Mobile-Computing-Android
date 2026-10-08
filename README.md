@@ -17,6 +17,7 @@ The original vision was to retrieve live product and pricing data directly from 
 
 - Android Studio
 - Kotlin
+- TypeScript
 - LoopBack
 
 ## Disclaimer
